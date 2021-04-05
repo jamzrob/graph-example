@@ -1,6 +1,7 @@
 # graph-example
 
 ```
+npm install
 docker-compose up
 node recipe/pick-a-file.js
 ```
