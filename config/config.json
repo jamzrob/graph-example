@@ -1,0 +1,8 @@
+{
+  "name": "graph_example",
+  "env": "dev",
+  "port": 8080,
+  "neptune_local": {
+    "endpoint": "ws://localhost:8182/gremlin"
+  }
+}
