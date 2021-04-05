@@ -1,5 +1,4 @@
 const g = require("../");
-const { both } = statics;
 
 g.V()
   .has("name", "application4")
@@ -35,5 +34,3 @@ g.V()
   .count()
   .next()
   .then((c) => console.log(`In total there are ${c.value} jobs avaliable`));
-
-g.V().group().by().by(both().count());
